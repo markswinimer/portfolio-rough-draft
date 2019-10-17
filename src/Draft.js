@@ -27,7 +27,7 @@ import project1 from './assets/nerdWords.png';
            <div className="Home-intro">
              <div className="intro-info">
                <p>
-                 My passion is writing creating clean, creative, and functional solutions.
+                 My passion is writing clean, creative, and functional solutions.
                </p>
              </div>
              {/* <div className="intro-profile">
@@ -65,6 +65,43 @@ import project1 from './assets/nerdWords.png';
                </div>
              </div>
 
+           </div>
+           <div className="Home-content">
+             <div className="Home-project">
+               {/* <div className="tag">
+                 TAG
+               </div> */}
+               <div className="box">
+                 <img src="https://assets.pcmag.com/media/images/521567-how-to-build-a-website.jpg?thumb=y&width=810&height=456"/>
+                 {/* <img src={project1}/> */}
+               </div>
+             </div>
+             <div className="Home-project-info">
+               <h2>Web Developer</h2>
+               <h3>Web applications in React</h3>
+               <p>Making projects is like making sentances. You type and you type until is somehow makes sense. But wait. It doesn't. So you type some more just to fill out the rest of this space because that's exactly the point. Filler.</p>
+             </div>
+           </div>
+           <div className="Home-action">
+             <h2>Contact Me!</h2>
+             <p>I'm always looking to talk about my work and share with other people. You can check out my github repos and other locations here.</p>
+             <div className="Home-action-links">
+               <div className="action">
+                    <img src="https://assets.pcmag.com/media/images/521567-how-to-build-a-website.jpg?thumb=y&width=810&height=456"/>
+               </div>
+               <div className="action">
+                    <img src="https://assets.pcmag.com/media/images/521567-how-to-build-a-website.jpg?thumb=y&width=810&height=456"/>
+               </div>
+               <div className="action">
+                    <img src="https://assets.pcmag.com/media/images/521567-how-to-build-a-website.jpg?thumb=y&width=810&height=456"/>
+               </div>
+             </div>
+           </div>
+           <div className="footer">
+             <h3>Mark Swinimer</h3>
+             <p>markswinimer@gmail.com</p>
+             <p>github.com/markswinimer</p>
+             <p>linkedin.com/in/markswinimer</p>
            </div>
          </div>
        </div>
