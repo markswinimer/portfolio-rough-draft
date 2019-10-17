@@ -1,0 +1,16 @@
+#FFF8D4
+#C0D1C2
+#2E4347
+#F5DF98
+#FFB884
+
+.Home {
+  height: 100vh;
+  background-color: #FFF8D4;
+  padding: 1rem;
+  font-size: 20px;
+}
+.Home-content {
+  height: 100vh;
+  background-color: #fff;
+}
