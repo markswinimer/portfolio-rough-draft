@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Oleo+Script|Signika&display=swap');
+/*
+----COLORS
+#F1EDD0
+#CDE9CA
+#A0CAB5
+#55443D
+#F38A8A
+
+----FONTS
+font-family: 'Abril Fatface', cursive;
+font-family: 'Oleo Script', cursive;
+*/
+h1 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 5rem !important;
+  color: #A0CAB5;
+}
+h2 {
+  font-family: 'Signika', sans-serif;
+  color: #A0CAB5;
+}
+.Home-container {
+  background-color: #CDE9CA;
+  height: 100%;
+}
+
+.Home {
+  background-color: #fff;
+  height: 100%;
+  margin: 0 3%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+.Home-name {
+  font-size: 5rem;
+  text-align: center;
+}
+
+.Home-intro {
+  color: #A0CAB5;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.5rem;
+  max-width: 32%;
+  line-height: 3rem;
+  text-align: center;
+  margin: 3rem auto;
+}
+.Home-content {
+  margin: auto 20%;
+  height: auto;
+  margin-top: 10rem;
+  /* background-color: #CDE9CA; */
+  display: flex;
+  flex-direction: row;
+}
+/* Component break here */
+.Home-project {
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  /* background-color: #F1EDD0; */
+  margin-right: 5rem;
+  box-shadow: 10px 10px 25px -12px rgba(0,0,0,0.75);
+  box-shadow: 3px 10px 32px -12px rgba(0,0,0,0.75);
+}
+
+.Home-project-info {
+  border-radius: 5px;
+  flex-grow: 1;
+}
+
+.tag {
+  border-radius: 5px 5px 0 0;
+  text-align: center;
+  color: white;
+  margin-left: 70%;
+  width: 30%;
+  background-color: #A0CAB5;
+}
+.box {
+  padding: 5%;
+  overflow: hidden;
+  border-radius: 0 5px 5px 5px;
+  background-color: #F1EDD0;
+  height: 100%;
+}
+
+.box img {
+  width: 100%;
+  border-radius: 5px;
+  filter: grayscale(100);
+}
+.Home-project-info h2 {
+  font-size: 40px;
+  color: #A0CAB5;
+  font-family: 'Oleo Script', cursive;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.Home-project-info p {
+  font-size: 20px;
+}
