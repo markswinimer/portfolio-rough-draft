@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./Draft.css";
+// import "./Draft.css";
 import profile from "./images/profile-dog-lg.jpg";
 import project1 from './assets/nerdWords.png';
 
@@ -83,7 +83,7 @@ import project1 from './assets/nerdWords.png';
              </div>
            </div>
            <div className="Home-action">
-             <h2>Contact Me!</h2>
+             <h2>Contact me!</h2>
              <p>I'm always looking to talk about my work and share with other people. You can check out my github repos and other locations here.</p>
              <div className="Home-action-links">
                <div className="action">

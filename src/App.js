@@ -14,7 +14,8 @@ class App extends Component {
           <HashRouter basename="/">
           <Switch>
             {/* <Navbar /> */}
-            <Route exact path="/" component={Draft} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/draft" component={Draft} />
           </Switch>
         </HashRouter>
       </div>

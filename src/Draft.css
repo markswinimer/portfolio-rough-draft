@@ -158,7 +158,6 @@ h3 {
   margin: auto 25%;
   height: auto;
   margin-top: 10rem;
-  /* background-color: #CDE9CA; */
   display: flex;
   flex-direction: row;
 }
@@ -255,7 +254,6 @@ h3 {
 }
 
 .action {
-  box-shadow: 0px 25px 20px -9px rgba(0,0,0,0.1);
   overflow: hidden;
   border-radius: 50%;
   max-width: 100px;

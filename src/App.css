@@ -1,12 +1,17 @@
-/*
-.App {
-  height: 100vh;
-  background-color: #FFF8D4;
-  padding: 1rem;
-  font-size: 20px;
+h1 {
+  font-family: 'Oleo Script', cursive;
+  font-size: 5rem !important;
+  color: #91d8b5;
+  /* text-shadow: 2px 2px #55443D; */
+}
+h2 {
+  font-family: 'Nunito', sans-serif;
+  color: #91d8b5;
 }
 
-.App-content {
-  height: 100vh;
-  background-color: #fff;
-} */
+h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
+  color: #91d8b5;
+
+}
