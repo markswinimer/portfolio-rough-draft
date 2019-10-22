@@ -9,7 +9,7 @@ class Home extends Component {
     return(
       <div className="Home">
         <div className="Home-content">
-          <Navbar />
+          {/* <Navbar /> */}
           <Title />
           <Bubble
             side="left"
