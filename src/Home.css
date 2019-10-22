@@ -15,7 +15,7 @@ font-family: 'Oleo Script', cursive;
 
 .Home {
   background-color: #CDE9CA;
-  height: 100vh;
+  height: 100%;
   padding: 1rem;
 }
 .Home-content {

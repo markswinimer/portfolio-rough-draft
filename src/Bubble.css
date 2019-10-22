@@ -1,0 +1,96 @@
+.Bubble h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.Bubble p {
+    font-size: 18px;
+    padding-top: 1rem;
+    line-height: 2.2rem;
+    color: #555555;
+}
+.Bubble-container {
+  margin: auto;
+  padding: 3rem 6rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.Bubble-image {
+  box-shadow: 0px 25px 20px -9px rgba(0,0,0,0.1);
+  overflow: hidden;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  margin-right: 5rem;
+  margin-left: 10rem;
+  flex-shrink: 0;
+}
+.Bubble-image.right {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+.Bubble img {
+  max-height: 200px;
+}
+.Bubble-info {
+  max-width: 500px;
+  flex-grow: auto;
+}
+.Bubble-info.right {
+  /* margin-left: 10rem; */
+}
+
+@media only screen and (max-width: 925px) {
+  .Bubble-container {
+    padding: 3rem 2rem;
+  }
+
+  .Bubble-image {
+      margin-left: 0rem;
+      margin-right: 3rem;
+  }
+  .Bubble-image.right {
+      margin-left: 3rem;
+      margin-right: 0rem;
+      margin-bottom: 0;
+  }
+  .Bubble-info.right {
+      margin-left: 0rem;
+      margin-right: 0rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .Bubble-container {
+    margin: auto;
+    padding: 2rem;
+    /* padding: 2rem 20rem; */
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+  }
+
+  .Bubble-image {
+    margin-right: 0;
+    margin-bottom: 2rem;
+    box-shadow: none;
+  }
+
+  .Bubble-image.right {
+    display: none;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    box-shadow: none;
+  }
+  .Bubble-info {
+    text-align: center;
+  }
+
+}

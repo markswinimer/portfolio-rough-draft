@@ -7,6 +7,10 @@ class Title extends Component {
       <div className="Title">
         <div className="Title-name">
           <h1>Mark Swinimer</h1>
+          <h2>web developer</h2>
+        </div>
+        <div className="Title-blurb">
+          <p>My passion is creating clean, creative and functional solutions</p>
         </div>
       </div>
     )
