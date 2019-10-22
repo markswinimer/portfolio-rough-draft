@@ -1,0 +1,11 @@
+.FooterComponent-container {
+  display: flex;
+}
+.FooterComponent {
+  margin: auto;
+  list-style: none;
+  text-align: center;
+  color: #555555;
+  font-size: .85rem;
+  padding-bottom: 2rem;
+}

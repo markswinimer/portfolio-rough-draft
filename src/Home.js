@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Title from './Title';
 import Bubble from './Bubble';
 import Navbar from './Navbar';
+import Contact from './Contact';
+import FooterComponent from './FooterComponent';
 import './Home.css';
 
 class Home extends Component {
@@ -32,6 +34,8 @@ class Home extends Component {
             sub="passion projects"
             body ="Making projects is like making sentences. You type and you type until is somehow makes sense. But wait. It doesn't. So you type some more just to fill out the rest of this space because that's exactly the point. Filler."
           />
+          <Contact />
+          <FooterComponent />
         </div>
       </div>
     )
