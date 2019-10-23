@@ -1,5 +1,7 @@
 .FooterComponent-container {
   display: flex;
+  border: 1rem solid #65AC92;
+  border-top: none;
 }
 .FooterComponent {
   margin: auto;

@@ -1,8 +1,12 @@
 .Title h1 {
   font-size: 5rem;
 }
-
+.Title-border {
+  background-color: #65AC92;
+}
 .Title-container {
+  border-left: 1rem solid #65AC92;
+  border-right: 1rem solid #65AC92;
   padding: 2rem;
 }
 .Title {

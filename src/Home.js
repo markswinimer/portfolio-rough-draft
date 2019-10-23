@@ -15,6 +15,7 @@ class Home extends Component {
           <Title />
           <Bubble
             side="left"
+            position="top"
             image="https://assets.pcmag.com/media/images/521567-how-to-build-a-website.jpg?thumb=y&width=810&height=456"
             title="Web Development"
             sub="Web applications in React"
@@ -22,6 +23,7 @@ class Home extends Component {
           />
           <Bubble
             side="right"
+            position="mid"
             image="https://assets.pcmag.com/media/images/521567-how-to-build-a-website.jpg?thumb=y&width=810&height=456"
             title="Learning"
             sub="Tools and technologies"
@@ -29,6 +31,7 @@ class Home extends Component {
           />
           <Bubble
             side="left"
+            position="bottom"
             image="https://assets.pcmag.com/media/images/521567-how-to-build-a-website.jpg?thumb=y&width=810&height=456"
             title="Working on now"
             sub="passion projects"

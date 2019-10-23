@@ -3,10 +3,10 @@ import './Bubble.css';
 
 class Bubble extends Component {
   render() {
-    const { image, sub, body, title, side, position } = this.props;
+    const { image, sub, body, title, side } = this.props;
 
     let sideArray = [this.props.side];
-    let style = side === "left" ? "left" : "right";
+    let style = side === "left" ? "" : "right";
 
     let bubbleImage = sideArray.map(s => (
         <div className={`Bubble-image ${style}`}>
@@ -18,8 +18,8 @@ class Bubble extends Component {
     let bubbleLeft = side === "left" ? bubbleImage : "";
 
     return (
-        <div className={`Bubble-container ${side} ${position}`}>
-          <div className={`Bubble ${style} ${position}`}>
+      <div className={`Bubble ${style}`}>
+        <div className={`Bubble-container ${style}`}>
 
           {bubbleLeft}
 
