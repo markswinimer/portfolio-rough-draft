@@ -1,17 +1,17 @@
 h1 {
   font-family: 'Oleo Script', cursive;
-  color: #91d8b5;
+  color: #65AC92;
   /* text-shadow: 2px 2px #55443D; */
 }
 h2 {
   font-family: 'Nunito', sans-serif;
-  color: #91d8b5;
+  color: #65AC92;
 }
 
 h3 {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
-  color: #91d8b5;
+  color: #65AC92;
 }
 
 @media only screen and (max-width: 650px) {

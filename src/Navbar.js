@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
+import profile from "./images/profile-dog.jpg"
 import './Navbar.css';
 
 class Navbar extends Component {
   render() {
     return(
-      <div className="Navbar">
-        <ul>
-          <li className="Navbar-link">home</li>
-          <li className="Navbar-link">about</li>
-          <li className="Navbar-link">blog</li>
-        </ul>
-      </div>
+      <nav className="Navbar-container">
+        <div className="Navbar">
+          <div className="Navbar-profile">
+            <img src={profile}/>
+          </div>
+          <div className="Navbar-link-container">
+            <a className="Navbar-link">home</a>
+            <a className="Navbar-link">about</a>
+            <a className="Navbar-link">blog</a>
+          </div>
+        </div>
+      </nav>
     )
   }
 }

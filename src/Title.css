@@ -2,22 +2,25 @@
   font-size: 5rem;
 }
 
+.Title-container {
+  padding: 2rem;
+}
 .Title {
-  max-width: 800px;
+  max-width: 1000px;
   height: 100%;
-  min-height: 650px;
+  min-height: 600px;
   margin: auto;
-  /* border: 1px solid red; */
+  border: 1px solid #65AC92;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-bottom: 5rem;
 }
 
 .Title-name {
   text-align: center;
   margin: 4rem;
+  color: #65AC92;
 }
 
 .Title-blurb {
