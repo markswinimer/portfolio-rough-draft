@@ -1,7 +1,7 @@
 .Navbar-container {
   padding: 2rem 2rem;
   padding-bottom: 0rem;
-  border: 1rem solid #65AC92;
+  border: .5rem solid #2A363B;
   border-bottom: none;
 }
 .Navbar {
@@ -16,25 +16,25 @@
 }
 .Navbar-link-container {
   margin-top: auto;
-  color: #65AC92;
+  color: #2A363B;
 }
 .Navbar-link {
   line-height: 0rem;
   font-family: 'Nunito', sans-serif;
-  color: #65AC92;
+  color: #2A363B;
   margin-right: 0rem;
   margin-left: 1rem;
   font-size: 1.45rem;
   font-weight: 300;
 }
 .Navbar-link a {
-  color: #65AC92;
+  color: #2A363B;
 }
 
 .Navbar-profile {
   /* box-shadow: 0px 25px 20px -9px rgba(0,0,0,0.1); */
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 75px;
   height: 75px;
   margin-right: auto;
@@ -42,5 +42,5 @@
 }
 .Navbar-profile img {
   max-height: 90px;
-  filter: hue-rotate(190deg) sepia(.7);
+  filter: contrast(.8) grayscale(1) brightness(1.3);
 }

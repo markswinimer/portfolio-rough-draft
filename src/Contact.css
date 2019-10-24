@@ -1,12 +1,12 @@
 .Contact-container {
-  border-left: 1rem solid #65AC92;
-  border-right: 1rem solid #65AC92;
+  border-left: 1rem solid #2A363B;
+  border-right: 1rem solid #2A363B;
   padding-bottom: 3rem;
 }
 .Contact {
   margin: auto;
   text-align: center;
-  border-bottom: 1px solid #65AC92;
+  border-bottom: 1px solid #2A363B;
   max-width: 800px;
   padding: 3rem 5rem;
 }
@@ -14,7 +14,7 @@
   font-size: 18px;
   padding-top: 1rem;
   line-height: 2.2rem;
-  color: #555555;
+  color: #2A363B;
 }
 @media only screen and (max-width: 925px) {
   .Contact {

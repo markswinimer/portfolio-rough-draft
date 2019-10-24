@@ -14,13 +14,13 @@
   padding: 0 2rem;
 }
 .Bubble-container.left {
-  background-color: #65AC92;
-  padding-top: 2rem;
+  background-color: #2A363B;
+  padding-top: 8rem;
 }
 .Bubble-container.left.bottom {
-  background-color: #65AC92;
+  background-color: #2A363B;
   padding-top: 0;
-  padding-bottom: 2rem;
+  padding-bottom: 7rem;
 }
 .Bubble-container.left p,
 .Bubble-container.left h1,
@@ -50,6 +50,7 @@
   border: none;
   border-right: 1px solid #65AC92;
   border-left: 1px solid #65AC92;
+  padding: 7rem 0;
 }
 .Bubble.left {
   border: none;
@@ -80,7 +81,11 @@
 }
 .Bubble-image.right {
   margin-right: 5rem;
-  margin-left: 5rem;
+  margin-left: 0rem;
+}
+.Bubble-image.left {
+  margin-right: 5rem;
+  margin-left: 0;
 }
 
 .Bubble img {

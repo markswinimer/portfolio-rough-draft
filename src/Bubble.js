@@ -14,8 +14,10 @@ class Bubble extends Component {
         </div>
     ))
 
-    let bubbleRight = side === "right" ? bubbleImage : "";
-    let bubbleLeft = side === "left" ? bubbleImage : "";
+    // let bubbleRight = side === "right" ? bubbleImage : "";
+    // let bubbleLeft = side === "left" ? bubbleImage : "";
+    let bubbleRight = "";
+    let bubbleLeft = bubbleImage;
 
     return (
         <div className={`Bubble-container ${side} ${position}`}>

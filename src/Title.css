@@ -2,19 +2,20 @@
   font-size: 5rem;
 }
 .Title-border {
-  background-color: #65AC92;
+  background-color: #2A363B;
 }
 .Title-container {
-  border-left: 1rem solid #65AC92;
-  border-right: 1rem solid #65AC92;
+  border-left: .5rem solid #2A363B;
+  border-right: .5rem solid #2A363B;
   padding: 2rem;
+  padding-bottom: 6rem
 }
 .Title {
   max-width: 1000px;
   height: 100%;
   min-height: 600px;
   margin: auto;
-  border: 1px solid #65AC92;
+  border: 1px solid #2A363B;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,11 +25,11 @@
 .Title-name {
   text-align: center;
   margin: 4rem;
-  color: #65AC92;
+  color: #2A363B;
 }
 
 .Title-blurb {
-  color: #555555;
+  color: #2A363B;
   font-family: 'Nunito', sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;

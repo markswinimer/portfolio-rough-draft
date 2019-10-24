@@ -1,13 +1,13 @@
 .FooterComponent-container {
   display: flex;
-  border: 1rem solid #65AC92;
+  border: 1rem solid #2A363B;
   border-top: none;
 }
 .FooterComponent {
   margin: auto;
   list-style: none;
   text-align: center;
-  color: #555555;
+  color: #2A363B;
   font-size: .85rem;
   padding-bottom: 2rem;
 }
