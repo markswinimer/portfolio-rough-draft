@@ -133,6 +133,19 @@
   }
   .Bubble {
     width: 100%;
+    text-align: left;
+  }
+  .Bubble.left p,
+  .Bubble.left h1,
+  .Bubble.left h2
+   {
+    text-align: left;
+  }
+  .Bubble.right p,
+  .Bubble.right h1,
+  .Bubble.right h2
+   {
+    text-align: left;
   }
 
   .Bubble-image {
