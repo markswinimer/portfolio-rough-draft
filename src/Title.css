@@ -8,12 +8,16 @@
   border-left: .5rem solid #2A363B;
   border-right: .5rem solid #2A363B;
   padding: 2rem;
-  padding-bottom: 6rem
+  padding-bottom: 6rem;
+  /* min-height: 300px; */
+  max-height: 800px;
 }
 .Title {
+  align-self: stretch;
+  flex: 1;
+  min-height: 500px;
   max-width: 1000px;
-  height: 100%;
-  min-height: 600px;
+  padding: 3rem 1rem;
   margin: auto;
   border: 1px solid #2A363B;
   display: flex;
@@ -24,14 +28,14 @@
 
 .Title-name {
   text-align: center;
-  margin: 4rem;
+  margin-bottom: 3rem;
   color: #2A363B;
 }
 
 .Title-blurb {
   color: #2A363B;
   font-family: 'Nunito', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 2rem;
   margin: 0 20%;
   text-align: center;

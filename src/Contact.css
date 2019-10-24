@@ -1,6 +1,7 @@
 .Contact-container {
-  border-left: 1rem solid #2A363B;
-  border-right: 1rem solid #2A363B;
+  border-left: .5rem solid #2A363B;
+  border-right: .5rem solid #2A363B;
+  padding: 4rem 0;
   padding-bottom: 3rem;
 }
 .Contact {
@@ -9,6 +10,7 @@
   border-bottom: 1px solid #2A363B;
   max-width: 800px;
   padding: 3rem 5rem;
+  padding-bottom: 5rem;
 }
 .Contact p {
   font-size: 18px;

@@ -1,6 +1,6 @@
 .FooterComponent-container {
   display: flex;
-  border: 1rem solid #2A363B;
+  border: .5rem solid #2A363B;
   border-top: none;
 }
 .FooterComponent {
@@ -9,5 +9,6 @@
   text-align: center;
   color: #2A363B;
   font-size: .85rem;
+  padding:0;
   padding-bottom: 2rem;
 }

@@ -9,7 +9,7 @@
     line-height: 2.2rem;
     color: #555555;
 }
-.Bubble-container.left, .bubble-container.right {
+.Bubble-container.left, .Bubble-container.right {
   margin: auto;
   padding: 0 2rem;
 }
@@ -35,7 +35,7 @@
 .Bubble {
   max-width: 1000px;
   margin: auto;
-  border: 1px solid #65AC92;
+  border: 1px solid #2A363B;
   padding: 1rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -48,14 +48,15 @@
 
 .Bubble.right {
   border: none;
-  border-right: 1px solid #65AC92;
-  border-left: 1px solid #65AC92;
-  padding: 7rem 0;
+  border-right: 1px solid #2A363B;
+  border-left: 1px solid #2A363B;
+  padding: 7rem 2rem;
 }
 .Bubble.left {
   border: none;
   border-right: 1px solid white;
   border-left: 1px solid white;
+  padding: 7rem 2rem;
 }
 .Bubble.left.top {
   border: none;
@@ -102,6 +103,8 @@
 @media only screen and (max-width: 925px) {
   .Bubble-container {
     padding: 3rem 2rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .Bubble-image {
@@ -109,9 +112,8 @@
       margin-right: 3rem;
   }
   .Bubble-image.right {
-      margin-left: 3rem;
-      margin-right: 0rem;
-      margin-bottom: 0;
+      /* margin-left: 3rem; */
+      /* margin-right: 0rem; */
   }
   .Bubble-info.right {
       margin-left: 0rem;
@@ -129,11 +131,15 @@
     justify-content: center;
     vertical-align: middle;
   }
+  .Bubble {
+    width: 100%;
+  }
 
   .Bubble-image {
     margin-right: 0;
     margin-bottom: 2rem;
     box-shadow: none;
+    display: none;
   }
 
   .Bubble-image.right {
