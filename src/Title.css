@@ -13,8 +13,6 @@
   max-height: 800px;
 }
 .Title {
-  align-self: stretch;
-  flex: 1;
   min-height: 500px;
   max-width: 1000px;
   padding: 3rem 1rem;
@@ -60,11 +58,11 @@
 
 @media only screen and (max-width: 500px) {
   .Title {
-    padding: 1rem;
+    margin: 0;
+    padding: 1rem 3rem;
     margin-top: 3rem;
     text-align: left;
-
-
+    display: inline-block;
   }
   .Title-name {
     margin: 1rem 0;
@@ -73,9 +71,7 @@
   }
   .Title-blurb {
     font-size: 1.1rem;
-    margin: 0 2rem;
-    margin-left: 3rem;
+    margin: 0;
     text-align: left;
-
   }
 }
