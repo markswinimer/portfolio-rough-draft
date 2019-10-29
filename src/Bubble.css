@@ -9,6 +9,9 @@
     line-height: 2.2rem;
     color: #555555;
 }
+.Bubble-image-container {
+  padding-bottom: 3.5rem;
+}
 .Bubble-container.left, .Bubble-container.right {
   margin: auto;
   padding: 0 2rem;
@@ -51,11 +54,13 @@
   border-right: 1px solid #2A363B;
   border-left: 1px solid #2A363B;
   padding: 7rem 2rem;
+  color: #2A363B;
 }
 .Bubble.left {
   border: none;
   border-right: 1px solid white;
   border-left: 1px solid white;
+  color: white;
   padding: 7rem 2rem;
 }
 .Bubble.left.top {
@@ -73,10 +78,11 @@
 .Bubble-image {
   box-shadow: 0px 25px 20px -9px rgba(0,0,0,0.1);
   overflow: hidden;
-  border-radius: 5px;
-  width: 150px;
-  height: 150px;
+  border-radius: 2px;
+  width: 200px;
+  height: 100px;
   margin-right: 5rem;
+  margin-bottom: 1rem;
   margin-left: 10rem;
   flex-shrink: 0;
 }
@@ -90,7 +96,8 @@
 }
 
 .Bubble img {
-  max-height: 200px;
+  filter: grayscale(.75) brightness(1.05);
+  max-height: 150px;
 }
 .Bubble-info {
   max-width: 500px;
@@ -99,6 +106,11 @@
 .Bubble-info.right {
   /* margin-left: 10rem; */
 }
+.Bubble-image-links {
+  text-align: right;
+  padding-right: 5rem;
+}
+
 
 @media only screen and (max-width: 925px) {
   .Bubble-container {

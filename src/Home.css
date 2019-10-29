@@ -29,11 +29,10 @@ h3 {
 }
 
 .Home {
-  background-color: #65AC92;
   height: 100%;
 }
 .Home-content {
-  background-color: white;
+  background-color: #FAFAFA;
   width: 100%;
   height: 100%;
 }

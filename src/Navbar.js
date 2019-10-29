@@ -11,9 +11,9 @@ class Navbar extends Component {
             <img src={profile}/>
           </div>
           <div className="Navbar-link-container">
-            <a className="Navbar-link">home</a>
+            {/* <a className="Navbar-link">home</a> */}
             <a className="Navbar-link">about</a>
-            <a className="Navbar-link">blog</a>
+            {/* <a className="Navbar-link">blog</a> */}
           </div>
         </div>
       </nav>

@@ -9,9 +9,22 @@ class Bubble extends Component {
     let style = side === "left" ? "left" : "right";
 
     let bubbleImage = sideArray.map(s => (
+      <div className="Bubble-image-container">
         <div className={`Bubble-image ${style}`}>
           <img src={this.props.image} />
         </div>
+        <div className={`Bubble-image-links ${style}`}>
+          <div>
+            github
+          </div>
+          <div>
+            about project
+          </div>
+          <div>
+            technology
+          </div>
+        </div>
+      </div>
     ))
 
     // let bubbleRight = side === "right" ? bubbleImage : "";
@@ -20,8 +33,8 @@ class Bubble extends Component {
     let bubbleLeft = bubbleImage;
 
     return (
-        <div className={`Bubble-container ${side} ${position}`}>
-          <div className={`Bubble ${style} ${position}`}>
+      <div className={`Bubble-container ${side} ${position}`}>
+        <div className={`Bubble ${style} ${position}`}>
 
           {bubbleLeft}
 
