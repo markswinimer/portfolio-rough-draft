@@ -14,24 +14,21 @@
 }
 .Bubble-container.left, .Bubble-container.right {
   margin: auto;
-  padding: 0 2rem;
+  padding: 5rem 0rem;
 }
 .Bubble-container.left {
   background-color: #2A363B;
-  padding-top: 8rem;
+  padding: 5rem 0;
 }
-.Bubble-container.left.bottom {
-  background-color: #2A363B;
-  padding-top: 0;
-  padding-bottom: 7rem;
-}
+
 .Bubble-container.left p,
 .Bubble-container.left h1,
 .Bubble-container.left h2 {
-  color: white;
+  color: #FAFAFA;
 }
+
 .Bubble-container.right {
-  background-color: white;
+  background-color: #FAFAFA;
 }
 
 
@@ -51,29 +48,31 @@
 
 .Bubble.right {
   border: none;
-  border-right: 1px solid #2A363B;
-  border-left: 1px solid #2A363B;
-  padding: 7rem 2rem;
+  border-top: 1px solid #2A363B;
+  border-bottom: 1px solid #2A363B;
+  padding: 7rem 9rem;
   color: #2A363B;
 }
 .Bubble.left {
   border: none;
-  border-right: 1px solid white;
-  border-left: 1px solid white;
-  color: white;
+  border-top: 1px solid #FAFAFA;
+  border-bottom: 1px solid #FAFAFA;
+  color: #FAFAFA;
   padding: 7rem 2rem;
 }
-.Bubble.left.top {
+
+/* .Bubble.left.top {
   border: none;
-  border-right: 1px solid white;
-  border-left: 1px solid white;
-  border-top: 1px solid white;
+  border-right: 1px solid #FAFAFA;
+  border-left: 1px solid #FAFAFA;
+  border-top: 1px solid #FAFAFA;
+  border-bottom: 1px solid #FAFAFA;
 }
 .Bubble.left.bottom {
   border: none;
-  border: 1px solid white;
+  border: 1px solid #FAFAFA;
   border-top: none;
-}
+} */
 
 .Bubble-image {
   box-shadow: 0px 25px 20px -9px rgba(0,0,0,0.1);
